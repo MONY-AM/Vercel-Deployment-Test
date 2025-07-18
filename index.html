@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP SHOP</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .hero-section {
+            background: url('path-to-your-banner-image.jpg') center center / cover no-repeat;
+            height: 400px;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+        }
+
+        .product-card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <a class="navbar-brand bold" href="#">SP SHOP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/checkout.html">Checkout</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cart.html">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="text-primary">
+            <h1>Welcome to SP SHOP</h1>
+            <p>Discover the Perfect Blend of great and Quality</p>
+            <a href="shop.html" class="btn btn-primary mt-5">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="container">
+        <h2 class="text-center my-4">Featured Collections</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card">
+
+                    <div class="card-body">
+                        <h5 class="card-title">HeadPhone</h5>
+                        <p class="card-text">Explore our range of our products newest and latest.</p>
+                        <a href="shop.html" class="btn btn-primary">Shop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mouse</h5>
+                        <p class="card-text">Update your wardrobe with the latest trends.</p>
+                        <a href="shop.html" class="btn btn-primary">Shop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Keyboard</h5>
+                        <p class="card-text">Enhance your performance with our premium.</p>
+                        <a href="shop.html" class="btn btn-primary">Shop</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-4">
+        <h2 class="text-center">PRODUCTS</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="/image/headphone.png" class="card-img-top" alt="SonicWave Wireless Headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">SonicWave Wireless Headphones</h5>
+                        <p class="card-text">Immerse yourself in rich, high-fidelity sound with our SonicWave Wireless
+                            Headphones. Featuring advanced Bluetooth connectivity, noise-cancellation technology, and
+                            ergonomic design, these headphones provide an exceptional listening experience.</p>
+                        <p class="card-text"><strong>$169.99</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="1" data-name="SonicWave Wireless Headphones" data-price="169.99">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="/image/mouse02.png" class="card-img-top" alt="Product Name">
+                    <div class="card-body">
+                        <h5 class="card-title">UltraSlim Bluetooth Mouse</h5>
+                        <p class="card-text">Simplify your mobile computing with our UltraSlim Bluetooth Mouse. Designed
+                            for portability, this mouse features a sleek, compact design that fits easily in your bag or
+                            pocket.</p>
+                        <p class="card-text"><strong>$49.99</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="1" data-name="UltraSlim Bluetooth Mouse" data-price="49.99">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="/image/keyboard.png" class="card-img-top" alt="Product Name">
+                    <div class="card-body">
+                        <h5 class="card-title">ProType Mechanical Keyboard</h5>
+                        <p class="card-text">Elevate your typing experience with our ProType Mechanical Keyboard.
+                            Featuring high-quality mechanical switches, this keyboard offers tactile feedback and
+                            precise key actuation for maximum typing comfort.</p>
+                        <p class="card-text"><strong>$699.99</strong></p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="/image/monitor.png" class="card-img-top" alt="Product Name">
+                    <div class="card-body">
+                        <h5 class="card-title">CrystalView 4K Monitor</h5>
+                        <p class="card-text">Experience stunning clarity with our CrystalView 4K Monitor. Featuring
+                            ultra-high-definition resolution and vibrant color accuracy, this monitor delivers an
+                            immersive visual experience for both work and entertainment.</p>
+                        <p class="card-text"><strong>$199.99</strong></p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="/image/monitor01.png" class="card-img-top" alt="Product Name">
+                    <div class="card-body">
+                        <h5 class="card-title">UltraWide Infinity Monitor</h5>
+                        <p class="card-text">Expand your horizons with our UltraWide Infinity Monitor. This ultra-wide
+                            monitor boasts a 21:9 aspect ratio and expansive screen real estate, perfect for
+                            multitasking, creative work, and immersive gaming.</p>
+                        <p class="card-text"><strong>$499.99</strong></p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="/image/mousegm.png" class="card-img-top" alt="Product Name">
+                    <div class="card-body">
+                        <h5 class="card-title">ErgoComfort Vertical Mouse</h5>
+                        <p class="card-text">Experience ultimate comfort with our ErgoComfort Vertical Mouse. This
+                            ergonomically designed mouse promotes a natural hand position, reducing strain and fatigue
+                            during extended use.</p>
+                        <p class="card-text"><strong>$39.99</strong></p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <!-- About Us Section -->
+                <div class="col-md-3">
+                    <h5>About Us</h5>
+                    <p>Welcome to SP SHOP. We offer high-quality products that enhance your machine.</p>
+                </div>
+                <!-- Quick Links Section -->
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/index.html" class="text-white">Home</a></li>
+                        <li><a href="/shop.html" class="text-white">Shop</a></li>
+                        <li><a href="/about.html" class="text-white">About Us</a></li>
+                        <li><a href="/contact.html" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Customer Service Section -->
+                <div class="col-md-3">
+                    <h5>Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">FAQs</a></li>
+                        <li><a href="#" class="text-white">Shipping & Returns</a></li>
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Section -->
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Phnom Penh, Cambodia</p>
+                    <p><i class="fas fa-phone"></i> +855 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@spshop.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-secondary text-center py-3">
+            <p class="mb-0">© 2024 SP SHOP. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./cart.js"></script>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
